@@ -1,5 +1,5 @@
 .container {
-    margin: 16px
+    margin: 0;
 }
 
 .row {
@@ -52,6 +52,24 @@
     text-align: center;
 }
 
+.container-brands {
+    font-size: 13px;
+    color: #4A4A44;
+    text-align: center;   
+    margin-top: 50px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.brands-row {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.brands-row .col {
+    margin: 16px;
+}
+
 @media (min-width: 992px) { 
     .container {
         margin: 0 auto;
@@ -85,4 +103,11 @@
         text-align: start;
     }
     
+    .brands-row {
+        width: 900px;
+    }
+
+    .brands-row .col {
+        margin: 0;
+    }
 }
