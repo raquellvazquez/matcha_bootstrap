@@ -70,6 +70,46 @@
     margin: 16px;
 }
 
+.card {
+    border-style: none;
+}
+
+.card > img {
+    box-shadow: 0 8px 24px rgba(0,0,0,.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 20px;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+    margin-bottom: 20px;
+    margin-top: 24px;
+    color: #343434;
+}
+
+.features-header {
+    margin-top: 120px;
+}
+
+.features-header .container-title {
+    font-family: 'Lucida Sans';
+    font-size: 40px;
+    color: #025157;
+    text-align: center;
+    font-weight: bold;
+}
+
+.features-header .container-subtitle {
+    font-family: 'Lucida Sans';
+    font-size: 18px;
+    color: #4a4a4a;
+    text-align: center;
+    padding: 24px 0;
+}
+
 @media (min-width: 992px) { 
     .container {
         margin: 0 auto;
