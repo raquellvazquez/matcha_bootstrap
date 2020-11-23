@@ -159,13 +159,13 @@
     margin-bottom: 120px;
 }
 
- /* @media (min-width: 768px) {
+@media (min-width: 768px) {
     .container-tools .card-deck {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 15px;
     }
- } */
+}
 
 @media (min-width: 992px) { 
     .container {
@@ -208,10 +208,10 @@
         margin: 0;
     }
 
-    /* .container-tools .card-deck {
+    .container-tools .card-deck {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-    } */
+    }
 }
 
 
