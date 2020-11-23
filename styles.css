@@ -58,6 +58,7 @@
     text-align: center;   
     margin-top: 50px;
     font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 120px;
 }
 
 .brands-row {
@@ -151,3 +152,4 @@
         margin: 0;
     }
 }
+
